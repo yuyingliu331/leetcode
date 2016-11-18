@@ -10,7 +10,6 @@
 var convert = function (s, numRows) {
     if (numRows == 1) return s;
     var rowCur = 0;
-
     var bVertical = true;
     var len = s.length;
     var arrays = [];
