@@ -7,7 +7,7 @@ var isValid = function(s) {
     else{
        if(isMatch(stack[stack.length -1], s[i])) stack.pop();
        else{
-        if(!isValidChar(s[i]) || stack.length > (s.length - i - 2)) return false;
+        if(!isValidChar(s[i]) ) return false;
         stack.push(s[i]);
        }
 
